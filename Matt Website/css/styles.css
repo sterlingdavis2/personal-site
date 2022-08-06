@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 1.6em;
+}
+
+body {
+    background-color: lightgray;
+}
+
+/* ===============
+   Typography
+=============== */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.sub-header,
+.main-list,
+.contact {
+    margin-bottom: 1em;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+
+/* ===============
+   Buttons
+=============== */
+
+.btn {
+    border: 0;
+    padding: .25em 1em;
+    border-radius: 5px;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+
+/* ===============
+   General Layout
+=============== */
+.container {
+    max-width: 750px;
+    height: 100vh;
+    margin: auto;
+    padding: 2em;
+    background-color: white;
+}
+
+.main-img {
+    max-width: 250px;
+}
+
+a {
+    color: inherit;
+}
+
+.fa-twitter {
+    scale: 125%;
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus {
+    color: lightblue;
+}
+
+
+
+/* ===============
+   Form
+=============== */
